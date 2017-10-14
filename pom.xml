@@ -1,9 +1,9 @@
-<project name="FancyBot" default="default" basedir=".">
-    <description>Builds, tests, and runs the project FancyBot.</description>
+<project name="TyperXbot" default="default" basedir=".">
+    <description>Builds, tests, and runs the project TyperXbot.</description>
     <import file="nbproject/build-impl.xml"/>
     <!-- add the following snippet inside your build.xml and change value to your project output name-->
     <target name="package-for-store" depends="jar">
-        <property name="store.jar.name" value="FancyBot"/>
+        <property name="store.jar.name" value="TyperXbot"/>
         <property name="store.dir" value="store"/>
         <property name="store.jar" value="${store.dir}/${store.jar.name}.jar"/>
         <echo message="Packaging ${application.title} into a single JAR at ${store.jar}"/>
