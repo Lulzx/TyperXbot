@@ -1,4 +1,4 @@
-<project name="TyperXbot" default="default">
+<project name="TyperXbot">
     <description>Builds, tests, and runs the project TyperXbot.</description>
     <import file="nbproject/build-impl.xml"/>
     <!-- add the following snippet inside your build.xml and change value to your project output name-->
